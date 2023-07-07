@@ -158,11 +158,22 @@ export const SideBar = () => {
 
 const DIV = styled.div`
   padding: 0 20px;
-  border-right: 1px solid #93fb6d;
+  border-right: 5px solid #93fb6d;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: white;
   background-color: #1c1c1e;
+
+  h3{
+    margin-top: 20px;
+    color: #93fb6d;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+
+  input{
+    margin-right: 10px;
+  }
 `;
