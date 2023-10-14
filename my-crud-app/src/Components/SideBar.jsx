@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const SideBar = () => {
     const [searchParams, setSearchParams] = useSearchParams();
-    const initialGender = searchParams.getAll("gender");
+    const initialGender = searchParams.getAll("gender");  
     const initialColor = searchParams.getAll("color");
     const initiOrder = searchParams.get('order')
     const [gender, setGender] = useState(initialGender || []);

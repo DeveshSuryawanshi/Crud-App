@@ -4,7 +4,7 @@ import { GET_PRODUCT_SUCCESS, PATCH_PRODUCT_SUCCESS, POST_PRODUCT_SUCCESS, PRODU
 
 export const postProduct = (newProduct) => (dispatch) =>{
     dispatch({type : PRODUCT_REQUEST})
-    axios.post(`http://localhost:8080/products`, newProduct)
+    axios.post(`https://react-crud-app-json-server-ojtv.onrender.com/products`, newProduct)
      .then((res) => {
         dispatch({type : POST_PRODUCT_SUCCESS})
      })
@@ -15,7 +15,7 @@ export const postProduct = (newProduct) => (dispatch) =>{
 
 export const getProduct = (paramsObj) =>(dispatch)=>{
    dispatch({type : PRODUCT_REQUEST})
-   axios.get(`http://localhost:8080/products`,paramsObj)
+   axios.get(`https://react-crud-app-json-server-ojtv.onrender.com/products`,paramsObj)
    .then((res)=> {
       dispatch({type : GET_PRODUCT_SUCCESS, payload: res.data})
    })
@@ -27,7 +27,7 @@ export const getProduct = (paramsObj) =>(dispatch)=>{
 export const updateProduct = (newData,id) => (dispatch)=>{
    dispatch({type : PRODUCT_REQUEST})
 
-   axios.patch(`http://localhost:8080/products/${id}`, newData)
+   axios.patch(`https://react-crud-app-json-server-ojtv.onrender.com/products/${id}`, newData)
      .then((res)=>{
       dispatch({type : PATCH_PRODUCT_SUCCESS})
      })

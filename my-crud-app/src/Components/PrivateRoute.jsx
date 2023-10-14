@@ -6,6 +6,7 @@ export const PrivateRoute = ({children}) => {
 
     const isAuth = useSelector((store) => store.AuthReducer.isAuth);
     const location = useLocation();
+    // console.log(location)
     return isAuth? children : <Navigate to={'/login'} state={location.pathname} replace={true}/>
 
 }
