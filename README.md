@@ -2,4 +2,4 @@
 
 - [Visit](https://crud-hpere6ysm-deveshsuryawanshi.vercel.app/?order=)
 
-- [Interview Selection Page](Preview_Images/Admin_Page.png)
+![Interview Selection Page](Preview_Images/Admin_Page.png)
