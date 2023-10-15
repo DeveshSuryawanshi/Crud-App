@@ -4,7 +4,8 @@
 An E-Commerce CRUD (Create, Read, Update, Delete) app is a web application designed specifically for managing the products and inventory of an online store. This type of application empowers sellers to easily add, edit, update, and remove products while providing a seamless shopping experience for customers 
 
 ## Visit
-- [Click here](https://crud-hpere6ysm-deveshsuryawanshi.vercel.app/?order=)
+- [FronEnd](https://crud-hpere6ysm-deveshsuryawanshi.vercel.app/?order=)
+- [Json Server Backend](https://react-crud-app-json-server-ojtv.onrender.com)
 
 ## Tech Stack
 - **Frontend**
